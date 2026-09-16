@@ -6,7 +6,7 @@ namespace ToDoApp
     class Program
     {
         // Connection string for SQL Server (update Server name if needed)
-        static string _connectionString = "Server=DESKTOP-O8MUUM8;Database=ToDoListDB;Integrated Security=True;TrustServerCertificate=True;";
+        static string _connectionString = "Server=YOUR_SERVER_NAME;Database=ToDoListDB;Integrated Security=True;TrustServerCertificate=True;";
 
         static void Main(string[] args)
         {
