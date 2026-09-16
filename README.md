@@ -12,16 +12,15 @@ The application allows users to manage daily tasks, set priorities, view task st
 
 - Add new tasks
 - View tasks
-- Update task status
 - Mark tasks as completed
 - Delete tasks
 - Set task priority
 - Store and retrieve data from SQL Server
+- Basic input validation
 
 ## Technologies
 
 - C#
-- .NET Core
 - SQL Server
 - Microsoft.Data.SqlClient
 
@@ -39,7 +38,7 @@ Each task includes:
 ## How to Run
 
 1. Clone or download the repository.
-2. Create a SQL Server database for the project.
+2. Create a SQL Server database named ToDoListDB.
 3. Create the required Tasks table.
 4. Update the SQL Server connection string in Program.cs.
 5. Open the project in Visual Studio or VS Code.
